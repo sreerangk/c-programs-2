@@ -1,3 +1,9 @@
+// ABCDEF FEDCBA
+// ABCDE   EDCBA
+// ABCD     DCBA
+// ABC       CBA
+// AB         BA
+// A           A
 #include<stdio.h>
 int main(){
     int n,i,k,l;
