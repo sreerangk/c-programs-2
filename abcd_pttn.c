@@ -1,14 +1,7 @@
-// ABCDEFGFEDCBA
-// ABCDEF FEDCBA
-// ABCDE   EDCBA
-// ABCD     DCBA
-// ABC       CBA
-// AB         BA
-// A           A
 #include<stdio.h>
-int main()
-{
-    int i,j,k,l,m;
+int main(){
+    int n,i,k,l;
+    char j;
     for(i=0;i<=6;i++)
     {
         for(k=65;k<=71-i;k++)
@@ -20,5 +13,6 @@ int main()
                 printf("%c",l);
         printf("\n");
     }
-    return 0;
+    
 }
+  
