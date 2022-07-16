@@ -1,5 +1,13 @@
+// *       *
+//  *     *
+//   *   *
+//    * *
+//     *
+//    * *
+//   *   *
+//  *     *
+// *       *
 #include <stdio.h>  
-  
 int main(void) {  
   int n,m,i,j;  
   printf("Enter the number");  
