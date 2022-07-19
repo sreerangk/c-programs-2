@@ -1,11 +1,7 @@
 /*
- ============================================================================
- Name        : ch.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
+sum of odd number :
+enter a limit :15
+1+3+5+7+9+11+13+=49
  */
 #include <stdio.h>
 #include <stdlib.h>
