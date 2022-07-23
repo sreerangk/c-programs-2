@@ -1,15 +1,31 @@
-#include<stdio.h>
-int main(){
-    int i,j,a[100],limit,b=0;
-    printf("enter the limit of arry");
-    scanf("%d",limit);
-    printf("enter the array ");
-    for(i=0;i<=limit;i++){
-        scanf("%d",&a[i]);
-    }
-    for(j=0;j<=limit;j++){
-        b=a[i];
-        a[i]=b;
-        
-    }
+#include <stdio.h>
+ 
+int main()
+{
+	int arr[10], i, j, Size, Count = 0;
+	
+	printf("\n Please Enter Number of elements in an array  :   ");
+	scanf("%d", &Size);
+	
+	printf("\n Please Enter %d elements of an Array  :  ", Size);
+	for (i = 0; i < Size; i++)
+	{
+    	scanf("%d", &arr[i]);
+   	}     
+ 
+	for (i = 0; i < Size; i++)
+	{
+		for(j = i + 1; j < Size; j++)
+		{
+    		if(arr[i] == arr[j])
+    		{
+    			Count++;
+				break;
+			}
+		}
+	}
+
+ 	printf("\n Total Number of Duplicate Elements in this Array  =  %d ", Count);
+	     
+ 	return 0;
 }
