@@ -15,7 +15,7 @@ int i,j,k ;
     {
       
     
-        for(k=1;k<=2*i-1;k++)
+        for(k=1;k<=i;k++)
         {
             printf("%d",k);
         }
@@ -23,10 +23,10 @@ int i,j,k ;
       
         printf("\n");
     }
-        for(i=5-1;i>=1;i--)
+        for(i=1;i<=5;i++)
     {
        
-        for(k=1;k<=2*i-1;k++)
+        for(k=1;k<=5-i;k++)
         {
             printf("%d",k);
         }
