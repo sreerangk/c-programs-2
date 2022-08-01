@@ -4,17 +4,13 @@ int main(){
     printf("enter the limit ");
     scanf("%d",&n);
     for(i=0;i<=n;i++){
-        if(i==((n/2))){
             for(j=0;j<=n+1;j++){
+                if(i==n/2||j==n/2){
                 printf("+");
-            }
+            }else
+            printf(" ");
         }
-        else{
-            for(j=0;j<=n/2;j++){
-                printf(" ");
-            }
-            printf("+");
-        }
+       
         printf("\n");
     }
 }
